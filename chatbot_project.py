@@ -63,4 +63,6 @@ st.text_area("Conversation:", st.session_state.conversation, height=1000)
 
 if st.button("Reset Conversation"):
     reset_conversation()
-    st.rerun()
+    st.rerun() 
+    
+st.button("end")
